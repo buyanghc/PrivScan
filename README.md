@@ -8,7 +8,7 @@ It provides a floating button to help users analyze the current interface and ac
 
 You can integrate the SDK into your Android project in one of two ways:
 
-### ✅ Option 1: Using Git Submodule
+### Option 1: Using Git Submodule
 
 ```bash
 git submodule add https://github.com/Cpp4App/PrivScan.git  sdk/PrivScan
@@ -29,10 +29,10 @@ dependencies {
 }
 ```
 
-### ✅ Option 2: Manual Copy
+### Option 2: Manual Copy
 You may also manually copy the **PrivScan/** folder into your project and configure it the same way in **settings.gradle.kts**.
 
-### 🧩 Usage
+## 🧩 Usage
 
 Initialize the SDK in your Application class:
 
@@ -42,13 +42,14 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        
+        // Initialize the privacy button injector for all activities
         ButtonInjector.init(this, (button, activity) -> {
-            button.setPosition(900f, 1950f);
-            button.setSize(100f);
-            button.setImage(R.drawable.button_bg);
-            button.setColor(Color.parseColor("#8800FF"));
-            button.setPolicyUrl("https://your-privacy-policy-url.html");
+            button.setPosition(900f, 1950f);  // Set the initial position of the button on the screen (x, y in pixels)
+            button.setSize(100f);  // Set the size (diameter) of the button in pixels
+            button.setImage(R.drawable.button_bg);  // Set the button\'s background image (e.g., icon or custom style)
+            button.setColor(Color.parseColor("#8800FF"));  // Set the background color of the button (used when no image is set)
+            button.setPolicyUrl("https://your-privacy-policy-url.html");  // Set the official privacy policy URL of your app
         });
     }
 }

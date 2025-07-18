@@ -1,4 +1,4 @@
-package com.example.seeprivacybutton;
+package com.example.PrivScan;
 
 import android.graphics.Bitmap;
 import android.view.View;

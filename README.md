@@ -37,6 +37,10 @@ You may also manually copy the **PrivScan/** folder into your project and config
 Initialize the SDK in your Application class:
 
 ```bash
+import android.app.Application;
+import android.graphics.Color;
+import com.example.PrivScan.ButtonInjector;
+
 public class MyApplication extends Application {
 
     @Override

@@ -53,7 +53,7 @@ public class MyApplication extends Application {
             button.setSize(100f);  
             
             // Set the button\'s background image (e.g., icon or custom style)
-            button.setImage(R.drawable.button_bg);  
+            button.setImage(com.example.SeePrivacyButton.R.drawable.button_bg));  
             
             // Set the background color of the button (used when no image is set)
             button.setColor(Color.parseColor("#8800FF")); 

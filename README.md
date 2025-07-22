@@ -1,9 +1,8 @@
 # 👁️ PrivScan SDK for Android
+🎥 [Demo Video](https://youtu.be/SYm1oYvtodA) ｜  📱 [Dummy App with PrivScan SDK](https://github.com/buyanghc/PrivScanDemo) ｜  🧪 [SEEPRIVACY (Our earlier work)](https://www.usenix.org/conference/usenixsecurity24/presentation/pan-shidong-hope) ｜  🔧 [SEEPRIVACY API Code](https://github.com/buyanghc/SEEPRIVACY_API)
+
 **PrivScan** is a lightweight Android SDK for identifying privacy-related GUI components on-screen.  
 It provides a floating button to help users analyze the current interface and access relevant privacy policy information in real time.
-
-
-🎥 [Demo Video](https://youtu.be/SYm1oYvtodA) ｜  📱 [Dummy App with PrivScan SDK](https://github.com/buyanghc/PrivScanDemo) ｜  🧪 [SEEPRIVACY(Our earlier work)](https://www.usenix.org/conference/usenixsecurity24/presentation/pan-shidong-hope) ｜  🔧 [SEEPRIVACY API Code]()
 
 ---
 
@@ -14,7 +13,7 @@ Below are example screenshots of contextual privacy notices automatically genera
 <div style="display: flex; gap: 12px;">
     <img src="showcaseImg/1.1.png" alt="Detected icon with policy notice" width="30%"/>
     <img src="showcaseImg/1.2.png" alt="Annotated UI with privacy info" width="30%"/>
-    <img src="showcaseImg/2.2.png" alt="Policy info card popup" width="30%0"/>
+    <img src="showcaseImg/2.2.png" alt="Policy info card popup" width="30%"/>
 </div>
 
 ---

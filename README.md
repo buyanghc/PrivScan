@@ -174,3 +174,13 @@ Screenshots of these three page types are available in the `dataset/` folder for
 | Shorten policy                   | 4.320  | 4.040     | 5.010     | 4.457  |
 | Draw results on image            | 0.400  | 0.430     | 0.440     | 0.423  |
 | **Total time**                   | 8.630  | 9.200     | 9.320     | 9.050  |
+
+
+---
+
+
+## ☁️ SEEPRIVACY API Remote Deployment
+
+The core framework behind PrivScan — [SEEPRIVACY](https://www.usenix.org/conference/usenixsecurity24/presentation/pan-shidong-hope) — is deployed remotely as a containerized API.
+
+We use **Google Cloud Build** to perform remote image builds and deploy the backend service to **Google Cloud Run**, ensuring compatibility and scalability across platforms.

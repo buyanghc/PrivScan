@@ -1,5 +1,5 @@
 # 👁️ PrivScan SDK for Android
-🎥 [Demo Video](https://www.youtube.com/watch?v=ck-25otfyHc) ｜  📱 [Dummy App with PrivScan SDK](https://github.com/buyanghc/PrivScanDemo) ｜  🧪 [SEEPRIVACY (Our earlier work)](https://www.usenix.org/conference/usenixsecurity24/presentation/pan-shidong-hope) ｜  🔧 [SEEPRIVACY API Code](https://github.com/buyanghc/SEEPRIVACY_API)
+🎥 [Demo Video](https://www.youtube.com/watch?v=ck-25otfyHc) ｜  📱 [Dummy App with PrivScan SDK](https://github.com/buyanghc/PrivScanDemo) ｜  🧪 [SEEPRIVACY (Our earlier work)](https://www.usenix.org/conference/usenixsecurity24/presentation/pan-shidong-hope) ｜
 
 **PrivScan** is a lightweight Android SDK for identifying privacy-related GUI components on-screen.  
 It provides a floating button to help users analyze the current interface and access relevant privacy policy information in real time.

@@ -13,7 +13,7 @@ Below are example screenshots of contextual privacy notices automatically genera
 <div style="display: flex; gap: 12px;">
     <img src="showcaseImg/1.1.png" alt="Detected icon with policy notice" width="30%"/>
     <img src="showcaseImg/1.2.png" alt="Annotated UI with privacy info" width="30%"/>
-    <img src="showcaseImg/2.2.png" alt="Policy info card popup" width="30%"/>
+<!--     <img src="showcaseImg/2.2.png" alt="Policy info card popup" width="30%"/> -->
 </div>
 
 ---

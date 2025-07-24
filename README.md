@@ -40,13 +40,6 @@ The PrivScan SDK depends on the following Android libraries:
 - `com.google.android.material:material:1.12.0`
 - `androidx.preference:preference:1.2.1`
 
-### Test Dependencies
-
-- `junit:junit:4.13.2`
-- `androidx.test.ext:junit:1.2.1`
-- `androidx.test.espresso:espresso-core:3.6.1`
-
-
 ---
 
 

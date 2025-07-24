@@ -22,6 +22,34 @@ Below are example screenshots of contextual privacy notices automatically genera
 ---
 
 
+## 🧰 Requirements
+
+- **Gradle Version**: 8.2  
+- **Android Gradle Plugin**: Compatible with 8.0+  
+- **Java Version**: 8 (Java 1.8)  
+- **Minimum SDK Version**: 26  
+- **Compile SDK Version**: 33  
+- **Target SDK Version**: 33  
+- **Language**: Java
+
+### Dependencies
+
+The PrivScan SDK depends on the following Android libraries:
+
+- `androidx.appcompat:appcompat:1.7.0`
+- `com.google.android.material:material:1.12.0`
+- `androidx.preference:preference:1.2.1`
+
+### Test Dependencies
+
+- `junit:junit:4.13.2`
+- `androidx.test.ext:junit:1.2.1`
+- `androidx.test.espresso:espresso-core:3.6.1`
+
+
+---
+
+
 ## 🚀 Integration Guide
 
 You can integrate the SDK into your Android project in one of two ways:

@@ -4,6 +4,17 @@
 **PrivScan** is a lightweight Android SDK for identifying privacy-related GUI components on-screen.  
 It provides a floating button to help users analyze the current interface and access relevant privacy policy information in real time.
 
+---
+
+## 📚 Table of Contents
+
+- [PrivScan Showcase](#️-privscan-showcase)
+- [Requirements](#-requirements)
+- [Integration Guide](#-integration-guide)
+- [Usage](#-usage)
+- [Evaluation](#-evaluation)
+- [SEEPRIVACY API Remote Deployment](#️-seeprivacy-api-remote-deployment)
+
 
 ---
 

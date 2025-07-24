@@ -106,7 +106,7 @@ Also, register your custom Application class in **AndroidManifest.xml**:
 We conducted a runtime performance evaluation of the core functional modules in PrivScan.  
 The tables below present timing statistics (in seconds) across three repeated tests for each sub‑process.  
 
-The evaluation was performed using our [dummy app](https://github.com/buyanghc/PrivScanDemo),  
+The evaluation was performed based on user interface scenarios from our [dummy app](https://github.com/buyanghc/PrivScanDemo),  
 which includes three representative page types:  
 - **Mixed** – pages containing both privacy-related icon elements and text elements  
 - **Icon-only** – pages containing only privacy-related icons  
@@ -118,13 +118,16 @@ Screenshots of these three page types are available in the `dataset/` folder for
 
 | Process                          | Mixed  | Icon-only | Text-only | Avg    |
 |----------------------------------|--------|-----------|-----------|--------|
+| Context Detection Module         |                                         |
 | Textual component detection      | 1.059  | 0.906     | 1.099     | 1.021  |
 | Iconic component detection       | 0.453  | 0.512     | 0.514     | 0.493  |
 | Result merging                   | 0.050  | 0.040     | 0.070     | 0.053  |
 | Textual component classification | 0.000  | 0.000     | 0.000     | 0.000  |
 | Iconic component classification  | 1.460  | 1.760     | 1.130     | 1.450  |
+| Segment Extraction Module        |                                         |
 | Paragraph-level processing       | 0.030  | 0.030     | 0.030     | 0.030  |
 | Sentence-level processing        | 0.630  | 0.590     | 1.030     | 0.750  |
+| CPP Presentation Module          |                                         |
 | Result matching                  | 0.000  | 0.000     | 0.000     | 0.000  |
 | Shorten policy                   | 3.720  | 4.280     | 5.840     | 4.613  |
 | Draw results on image            | 0.430  | 0.410     | 0.410     | 0.417  |
